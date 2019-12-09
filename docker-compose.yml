@@ -1,7 +1,7 @@
 version: '3.4'
 
 services:
-  cassandra:
+  neo4j:
     restart: 'no'
     image: neo4j:3.5.12
     ports:
